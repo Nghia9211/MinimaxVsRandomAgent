@@ -664,7 +664,7 @@ def main():
         print(f"{player} made the move {piece} from {start} to {end}.")
         print(f"Reward: {reward}")
         print("================")
-    
+    time.sleep(3)
     print("Closing Xiangqi environment")
     env.close()
 
