@@ -24,16 +24,6 @@ you need to have,
 will not be a great choice here.
 - Python 3.6 or above
 
-### User Installation
-Install Gym Xiangqi on your Python environment using `pip`
-```
-pip install gym-xiangqi
-```
-Test your installation by running
-```
-agent-v-agent
-```
-
 ### Development Installation
 First, clone the repository
 ```
@@ -56,6 +46,11 @@ pip install -e .
 Install the dependencies for development
 ```
 pip install -r requirements.txt
+```
+
+RUN MINIMAX VS RANDOM AGENT 
+```
+python vsMinimax.py
 ```
 
 ## Software Handbook
